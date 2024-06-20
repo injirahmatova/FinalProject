@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.sectionSeven {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .containerSeven {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content {
+      display: flex;
+      flex-direction: column;
+      max-width: 434px;
+      h2 {
+        color: #000;
+        margin-bottom: 20px;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      p {
+        color: #000;
+        opacity: 0.8;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 40px;
+      }
+      .image {
+        display: flex;
+        align-items: center;
+        column-gap: 18px;
+      }
+    }
+    .photo {
+      img {
+        max-width: 475px;
+        height: auto;
+      }
+    }
+  }
+}

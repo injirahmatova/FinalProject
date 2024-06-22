@@ -6,7 +6,7 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.footerTop}>
           <div className={styles.footerLogo}>
-            <a href="https://kango.az/" target="_blank">
+            <a href="http://localhost:3000/"  title="Kango.az">
               <img
                 src="https://kango.az/new-assets/images/grey-logo.svg"
                 alt=""
@@ -39,22 +39,22 @@ const Footer = () => {
           </div>
           <div className={styles.topBlock}>
             <ul>
-                <li><a href="">Haqqımızda</a></li>
-                <li><a href="">Tariflər</a></li>
-                <li><a href="">Xidmətlər</a></li>
+                <li><a href="http://localhost:3000/haqq%C4%B1m%C4%B1zda">Haqqımızda</a></li>
+                <li><a href="http://localhost:3000/tarifler">Tariflər</a></li>
+                <li><a href="http://localhost:3000/xidm%C9%99tl%C9%99r">Xidmətlər</a></li>
             </ul>
           </div>
           <div className={styles.topBlock}>
             <ul>
-                <li><a href="">Mağazalar</a></li>
-                <li><a href="">Suallar</a></li>
-                <li><a href="">Filiallar</a></li>
+                <li><a href="http://localhost:3000/ma%C4%9Fazalar">Mağazalar</a></li>
+                <li><a href="http://localhost:3000/suallar">Suallar</a></li>
+                <li><a href="http://localhost:3000/filiallar">Filiallar</a></li>
             </ul>
           </div>
           <div className={styles.topBlock}>
             <ul>
-                <li><a href="">Daşınma şərtləri</a></li>
-                <li><a href="">Şəxsi məlumatların qorunması</a></li>
+                <li><a href="http://localhost:3000/da%C5%9F%C4%B1nma%20%C5%9F%C9%99rtl%C9%99ri">Daşınma şərtləri</a></li>
+                <li><a href="http://localhost:3000/%C5%9F%C9%99xsi%20m%C9%99lumatlar%C4%B1n%20qorunmas%C4%B1">Şəxsi məlumatların qorunması</a></li>
             </ul>
           </div>
         </div>

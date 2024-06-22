@@ -33,8 +33,8 @@ const Header = () => {
       <div className={styles.headerBottom}>
         <div className={styles.containerBottom}>
           <div className={styles.logo}>
-            <a href="http://localhost:3000/" title="Kango.az"><img src="https://kango.az/new-assets/images/logo.svg" alt="" />
-            </a>
+        <img onClick={() => navigation('/')} src="https://kango.az/new-assets/images/logo.svg" alt="" />
+           
             
           </div>
           <div className={styles.navBar}>
@@ -63,7 +63,7 @@ const Header = () => {
             </ul>
           </div>
           <div className={styles.button}>
-           <a href="http://localhost:3002/daxil%20ol"> <button>SİFARİŞ ET</button> </a> 
+           <a href="http://localhost:3003/daxil%20ol"> <button>SİFARİŞ ET</button> </a> 
           </div>
         </div>
       </div>

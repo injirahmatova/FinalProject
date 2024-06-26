@@ -1,14 +1,16 @@
 import React from "react";
-import Header from "../../Companents/Header/Header";
-import Footer from "../../Companents/Footer/Footer";
+
+
 import Condition from "../../Companents/Condition/Condition";
+import Footer from "../../Companents/Footer/Footer";
+import Header from "../../Companents/Header/Header";
 
 const DaşınmaŞərtləri = () => {
   return (
     <div>
       <Header />
       <Condition />
-      <Footer />
+      <Footer/>
     </div>
   );
 };

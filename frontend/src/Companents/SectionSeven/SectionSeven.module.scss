@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.sectionSeven {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .containerSeven {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content {
+      display: flex;
+      flex-direction: column;
+      max-width: 434px;
+      h2 {
+        color: #000;
+        margin-bottom: 20px;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      p {
+        color: #000;
+        opacity: 0.8;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 40px;
+      }
+      .image {
+        display: flex;
+        align-items: center;
+        column-gap: 18px;
+      }
+    }
+    .photo {
+      img {
+        max-width: 475px;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .sectionSeven {
+    width: 100%;
+
+    .containerSeven {
+      flex-direction: column;
+      width: 80%;
+      .content{
+        width: 100%;
+        .image{
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }
+      }
+      .photo{
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
